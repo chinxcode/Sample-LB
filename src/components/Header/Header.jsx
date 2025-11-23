@@ -25,10 +25,12 @@ const navItems = [
 
 const Header = () => {
     return (
-        <div className="w-full sticky top-0 z-20 bg-[#111111] py-4 px-8 border-b border-gray-800">
+        <div className="w-full fixed top-0 z-50  py-4 px-8 border-b border-gray-800">
             <nav className="flex flex-row justify-around mx-auto max-w-7xl items-center">
                 <Link to="/">
-                    <img src="/footer/logo.svg" alt="logo" />
+                    <div className="w-fit bg-[#1F1F1F] pl-6 pr-4 pt-1 pb-2 rounded-md">
+                        <img src="/footer/logo.svg" alt="logo" />
+                    </div>
                 </Link>
 
                 <ul className="flex flex-row uppercase gap-6 text-white font-bold">

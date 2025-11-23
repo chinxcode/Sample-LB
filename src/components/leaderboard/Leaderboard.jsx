@@ -18,7 +18,7 @@ const leaderboardData = [
 
 export const Leaderboard = () => {
     return (
-        <div className="flex flex-col items-center justify-center bg-[#111111] pb-10 gap-20 font-archivo">
+        <div className="flex flex-col items-center justify-center bg-[#111111] pb-10 gap-10 font-archivo">
             <section className="relative w-full h-[900px]  overflow-hidden">
                 {/* BACKGROUND IMAGE */}
                 <img src="/leaderboard/bg.png" alt="bg" className=" w-full h-full object-cove" />
@@ -59,14 +59,12 @@ export const Leaderboard = () => {
             <LBTable lbData={leaderboardData} />
 
             {/* winner ttitle and cards */}
-            <div className="flex flex-col gap-10 font-archivo">
+            <div className="flex flex-col gap-10 mt-10 font-archivo">
                 <div className="flex flex-col uppercase items-center justify-center gap-0 leading-tight">
                     <h1 className="text-[51px] text-white font-extrabold font-outfit">
                         recent <span className="text-[#2277D8]">winners</span>
                     </h1>
-                    <p className="text-[#C4C4C4] text-[20px] font-semibold">
-                        CLICK THE CARDS BELOW TO SEE THE FULL LIST OF WINNERS
-                    </p>
+                    <p className="text-[#C4C4C4] text-[20px] font-semibold">CLICK THE CARDS BELOW TO SEE THE FULL LIST OF WINNERS</p>
                 </div>
                 <div className="flex flex-row gap-8 text-white">
                     <Card />
