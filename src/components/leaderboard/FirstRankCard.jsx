@@ -9,7 +9,7 @@ const FirstRankCard = () => {
             <div className="relative w-[222px] h-[325px]">
                 {/* BACKGROUND HEX IMAGE */}
                 <img
-                    src="/public/leaderboard/rankCards/rank-first.svg"
+                    src="/leaderboard/rankCards/rank-first.svg"
                     alt="Rank card background"
                     className="w-full h-full"
                 />
@@ -18,9 +18,9 @@ const FirstRankCard = () => {
                 <div className="absolute top-0 left-[] flex flex-col items-center z-10  size-full pt-12 gap-3">
                     <div className="flex flex-col gap-0 items-center">
                         {/* AVATAR */}
-                        <div className="rounded-full overflow-hidden ">
-                            <img src="/src/assets/user-avatar.png" alt="User avatar" className="size-18 object-cover" />
-                        </div>
+                            <div className="rounded-full overflow-hidden ">
+                                <img src="/leaderboard/lbTable/assets/pig.png" alt="User avatar" className="size-18 object-cover" />
+                            </div>
 
                         {/* USER NAME */}
                         <p className="text-base font-bold text-white ">USER</p>
@@ -28,7 +28,7 @@ const FirstRankCard = () => {
                     {/* PRIZE BOX */}
                     <div className=" flex justify-center">
                         <div className=" w-[142px] py-0 flex items-center justify-center text-[11px] font-semibold uppercase text-white">
-                            <img src="/public/leaderboard/rankCards/rank-first-prize.svg" alt="" className="" />
+                            <img src="/leaderboard/rankCards/rank-first-prize.svg" alt="" className="" />
                             <div className="absolute">
                                 <span className="mr-1 text-[#f4f4f4]">PRIZE:</span>
                                 <span>250.00$</span>
@@ -43,7 +43,7 @@ const FirstRankCard = () => {
                         {/* WAGER BOX */}
                         <div className="w-full flex justify-center">
                             <div className="w-[90%] flex items-center justify-center text-sm font-semibold text-white ">
-                                <img src="/public/leaderboard/rankCards/rank-first-wager.svg" alt="" className="" />
+                                <img src="/leaderboard/rankCards/rank-first-wager.svg" alt="" className="" />
                                 <div className="absolute">2000$</div>
                             </div>
                         </div>

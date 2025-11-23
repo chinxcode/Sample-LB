@@ -8,7 +8,7 @@ const Footer = () => {
                     {/* LOGO + COPYRIGHT */}
                     <div className="space-y-2">
                         <div className="w-32 h-10 scale-130 rounded-md flex items-center justify-center">
-                            <img src="/public/footer/logo.svg" alt="Footer Logo" />
+                            <img src="/footer/logo.svg" alt="Footer Logo" />
                         </div>
 
                         <p className="text-sm text-gray-400 mt-6 font-semibold">© 2025 Voided.gg</p>
@@ -25,7 +25,7 @@ const Footer = () => {
                                 </li>
                                 <li className="text-gray-400 cursor-pointer hover:text-white font-semibold">Bonuses</li>
                                 <li className="text-gray-400 cursor-pointer hover:text-white flex items-center gap-1 font-semibold">
-                                    Stream <img src="/public/footer/link.svg" alt="link" />
+                                    Stream <img src="/footer/link.svg" alt="link" />
                                 </li>
                             </ul>
                         </div>
@@ -35,17 +35,17 @@ const Footer = () => {
                             <h3 className="text-white font-semibold mb-2 tracking-wide">SOCIALS</h3>
                             <ul className="space-y-3">
                                 <li className="flex items-center gap-2 text-gray-400 font-semibold">
-                                    <img src="/public/footer/twitter.svg" alt="twitter" />
+                                    <img src="/footer/twitter.svg" alt="twitter" />
                                     Twitter
                                 </li>
 
                                 <li className="flex items-center gap-2 text-gray-400 font-semibold">
-                                    <img src="/public/footer/discord.svg" alt="discord" />
+                                    <img src="/footer/discord.svg" alt="discord" />
                                     Discord
                                 </li>
 
                                 <li className="flex items-center gap-2 text-gray-400 font-semibold">
-                                    <img src="/public/footer/twitter.svg" alt="twitter" />
+                                    <img src="/footer/twitter.svg" alt="twitter" />
                                     Twitter (Prizes)
                                 </li>
                             </ul>
@@ -56,7 +56,7 @@ const Footer = () => {
                             <h3 className="text-white font-semibold mb-2 tracking-wide">PARTNERS</h3>
                             <ul className="space-y-2">
                                 <li className="flex items-center gap-1 text-gray-400 font-semibold">
-                                    Stake.com <img src="/public/footer/link.svg" alt="link" />
+                                    Stake.com <img src="/footer/link.svg" alt="link" />
                                 </li>
                             </ul>
                         </div>

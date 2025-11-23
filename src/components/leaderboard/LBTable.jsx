@@ -1,6 +1,6 @@
-import bg1 from "../../../public/leaderboard/lbTable/assets/row-bg-1.svg";
-import bg2 from "../../../public/leaderboard/lbTable/assets/row-bg-2.svg";
-import bg3 from "../../../public/leaderboard/lbTable/assets/row-bg-3.svg";
+const bg1 = "/leaderboard/lbTable/assets/row-bg-1.svg";
+const bg2 = "/leaderboard/lbTable/assets/row-bg-2.svg";
+const bg3 = "/leaderboard/lbTable/assets/row-bg-3.svg";
 
 function LBTable({ lbData }) {
     const bgImages = [bg1, bg2, bg3];
@@ -17,19 +17,19 @@ function LBTable({ lbData }) {
             <div className="w-full max-w-[778px] mx-auto text-white font-archivo">
                 <div class="grid grid-cols-4 font-bold px-4 mb-2 uppercase">
                     <div className="flex items-center gap-2 text-[15px] font-bold">
-                        <img src="/public/leaderboard/lbTable/assets/hash.svg" alt="trophy" class="w-4 h-4" />
+                        <img src="/leaderboard/lbTable/assets/hash.svg" alt="trophy" className="w-4 h-4" />
                         PLACE
                     </div>
                     <div class="flex items-center gap-2 text-[15px] ml-2 font-bold">
-                        <img src="/public/leaderboard/lbTable/assets/profile.svg" alt="user" class="w-4 h-4" />
+                        <img src="/leaderboard/lbTable/assets/profile.svg" alt="user" className="w-4 h-4" />
                         USER
                     </div>
                     <div class="flex items-center gap-2 text-[15px] ml-0.5 font-bold">
-                        <img src="/public/leaderboard/lbTable/assets/wager.svg" alt="wager" class="w-4 h-4" />
+                        <img src="/leaderboard/lbTable/assets/wager.svg" alt="wager" className="w-4 h-4" />
                         WAGER
                     </div>
                     <div class="flex items-center gap-2 justify-end mr-8 text-[15px] font-bold">
-                        <img src="/public/leaderboard/lbTable/assets/trophy.svg" alt="prize" class="w-4 h-4" />
+                        <img src="/leaderboard/lbTable/assets/trophy.svg" alt="prize" className="w-4 h-4" />
                         PRIZE
                     </div>
                 </div>
@@ -51,9 +51,9 @@ function LBTable({ lbData }) {
                                 <div class="flex items-center gap-0.5 font-bold text-[16px]">
                                     <div class="rounded-full flex items-center justify-center">
                                         <img
-                                            src="/public/leaderboard/lbTable/assets/pig.svg"
+                                            src="/leaderboard/lbTable/assets/pig.svg"
                                             alt="pig"
-                                            class="w-8 h-8"
+                                            className="w-8 h-8"
                                         />
                                     </div>
                                     {entry.username}
@@ -64,9 +64,9 @@ function LBTable({ lbData }) {
                                     <div className=" flex flex-row min-w-17 ">
                                         <div class="rounded-full flex items-center justify-center ">
                                             <img
-                                                src="/public/leaderboard/lbTable/assets/dollar.svg"
+                                                src="/leaderboard/lbTable/assets/dollar.svg"
                                                 alt="dollar"
-                                                class="w-4 h-4"
+                                                className="w-4 h-4"
                                             />
                                             {entry.prize}
                                         </div>

@@ -4,13 +4,13 @@ import React from "react";
 const Card = () => {
     return (
         <div className="relative w-[235px] h-[283px] font-archivo hover:scale-105 cursor-pointer transition-all duration-300">
-            <img src="/public/winner-card-bg.svg" alt="" className="" />
+            <img src="/winner-card-bg.svg" alt="" className="" />
             <div className="absolute inset-0 height-full ">
                 <div className="flex flex-col items-center justify-around py-4 h-full relative">
                     <div className="absolute top-0 left-0 w-[93px] text-center border-[#2F97D6]  border py-0.5 border-l-0 border-t-0 bg-[#2277d857] rounded-tl-xl rounded-br-lg text-[10px]">
                         JAN 2025
                     </div>
-                    <img src="/public/pig.svg" alt="" className="size-[90px] " />
+                    <img src="/pig.svg" alt="" className="size-[90px] " />
                     <div className="flex flex-col items-center  gap-0 ">
                         <p className="uppercase font-bold text-[24px] text-[#2277D8] ">mr. piggy</p>
                         {/* winner */}

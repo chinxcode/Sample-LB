@@ -7,7 +7,7 @@ const ThirdRankCard = () => {
             <div className="relative w-[222px] h-[325px]">
                 {/* BACKGROUND HEX IMAGE */}
                 <img
-                    src="/public/leaderboard/rankCards/rank-third.svg"
+                    src="/leaderboard/rankCards/rank-third.svg"
                     alt="Rank card background"
                     className="w-full h-full"
                 />
@@ -17,7 +17,7 @@ const ThirdRankCard = () => {
                     <div className="flex flex-col gap-0 items-center">
                         {/* AVATAR */}
                         <div className="rounded-full overflow-hidden ">
-                            <img src="/src/assets/user-avatar.png" alt="User avatar" className="size-18 object-cover" />
+                            <img src="/leaderboard/lbTable/assets/pig.png" alt="User avatar" className="size-18 object-cover" />
                         </div>
 
                         {/* USER NAME */}
@@ -26,7 +26,7 @@ const ThirdRankCard = () => {
                     {/* PRIZE BOX */}
                     <div className=" flex justify-center">
                         <div className=" w-[142px] py-0 flex items-center justify-center text-[11px] font-semibold uppercase text-white">
-                            <img src="/public/leaderboard/rankCards/rank-third-prize.svg" alt="" className="" />
+                            <img src="/leaderboard/rankCards/rank-third-prize.svg" alt="" className="" />
                             <div className="absolute">
                                 <span className="mr-1 text-[#f4f4f4]">PRIZE:</span>
                                 <span>250.00$</span>
@@ -41,7 +41,7 @@ const ThirdRankCard = () => {
                         {/* WAGER BOX */}
                         <div className="w-full flex justify-center">
                             <div className="w-[90%] flex items-center justify-center text-sm font-semibold text-white ">
-                                <img src="/public/leaderboard/rankCards/rank-third-wager.svg" alt="" className="" />
+                                <img src="/leaderboard/rankCards/rank-third-wager.svg" alt="" className="" />
                                 <div className="absolute">2000$</div>
                             </div>
                         </div>

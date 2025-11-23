@@ -28,7 +28,7 @@ const Header = () => {
         <div className="w-full sticky top-0 z-20 bg-[#111111] py-4 px-8 border-b border-gray-800">
             <nav className="flex flex-row justify-around mx-auto max-w-7xl items-center">
                 <Link to="/">
-                    <img src="/public/footer/logo.svg" alt="logo" />
+                    <img src="/footer/logo.svg" alt="logo" />
                 </Link>
 
                 <ul className="flex flex-row uppercase gap-6 text-white font-bold">
