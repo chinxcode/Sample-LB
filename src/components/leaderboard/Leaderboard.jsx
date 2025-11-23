@@ -21,7 +21,7 @@ export const Leaderboard = () => {
         <div className="flex flex-col items-center justify-center bg-[#111111] pb-10 gap-20 font-archivo">
             <section className="relative w-full h-[900px]  overflow-hidden">
                 {/* BACKGROUND IMAGE */}
-                <img src="/public/leaderboard/bg.png" alt="bg" className=" w-full h-full object-cove" />
+                <img src="/leaderboard/bg.png" alt="bg" className=" w-full h-full object-cove" />
 
                 {/* CONTENT WRAPPER (on top of bg) */}
                 <div className="absolute  top-20 left-[50%] -translate-x-1/2 flex flex-col items-center px-4 gap-15 ">
@@ -29,16 +29,15 @@ export const Leaderboard = () => {
                         {/* TITLE IMAGE */}
                         <div className="relative">
                             <div class="absolute w-[698px] h-[73px] bg-[#267EE3] opacity-35 blur-[75.12px] top-1/2 -translate-y-1/2"></div>
-                        
-                            <img src="/public/leaderboard/lb-title-text.svg" alt="Leaderboard" className="" />
+
+                            <img src="/leaderboard/lb-title-text.svg" alt="Leaderboard" className="" />
                         </div>
-                        
+
                         {/* CODE + JOIN STAKE ROW */}
                         <div className="flex flex-col md:flex-row items-center gap-4 ">
                             <ButtonLeft />
                             <ButtonRight />
                         </div>
-                        
                     </div>
                     {/* RANK CARDS */}
                     <div className="flex flex-col md:flex-row  justify-center gap-10 mt-5">
